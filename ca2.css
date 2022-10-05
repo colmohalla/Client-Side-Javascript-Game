@@ -1,0 +1,155 @@
+canvas {
+    background-color: black;
+    display: block;
+    margin: 1em auto;
+    /* change box shadow */
+    box-shadow: grey 20px 10px 50px ;
+    
+}
+
+body {
+    background-color: pink;
+}
+
+
+#outcome {
+    color: purple;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+    
+}
+
+
+#score {
+    font-size: 16px;
+    background-color: white;
+    border:none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+
+body {
+    background-color: pink;
+}
+
+html{
+position: relative;
+height: 100%;
+}
+
+.game {
+    display: inline-block;
+}
+
+.game li {
+    display: inline-block;
+    
+}
+
+body {
+margin-bottom: 60px;
+height: 100%;
+}
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+li a {
+font-weight: 500;
+font-size: 16px;
+color: #edf0f1;
+text-decoration: none;
+
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 3em;
+}
+
+
+h1 a {
+    text-decoration: none;
+    color: white 
+}
+
+
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 8%;
+background-color: rgb(10, 10, 31);
+}
+
+nav li a {
+align-items: flex-end;
+list-style-type: none;
+}
+
+.nav {
+list-style: none
+}
+
+.nav li {
+display: inline-block;
+padding: 0 1.1em;
+}
+
+.nav li a:hover {
+color: #0088a9;
+}
+
+button {
+padding: 1em 2.5em;
+background-color: white;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+}
+
+td > a{
+color: black;
+background-color: blue;
+padding: 1em 2.5em;
+background-color: white;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: grey;
+}
+
+li {
+display: inline;
+list-style-type: none;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 2em;
+
+}
+
+h2 ~ p {
+    text-align: center;
+    font-size: 1.5em;
+
+}
